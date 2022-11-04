@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="sytle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}body {
+    background-color: skyblue;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+
+</style>
+
+</head>
+
+<body>
+    <div style="display: flex;justify-content: center;line-height: 2;">
+    
+        <div>
+            <h1>Sign Up</h1>
+        
+        <div>
+            <form action="/signupsubmit" method="get">
+                <div>
+                    <label>Name</label><br>
+		   <input type="text" placeholder=""  name="name"/>
+                </div>
+                <div>
+                    <label div>Email</label><br>
+
+                    <input type="email" placeholder=""  name="email" />
+                </div>
+                <div>
+                    <label div>Password</label><br>
+                    <input type="password" placeholder=""  name="pwd" />
+                </div>
+                <div>
+                    <label div>Confirm Password</label><br>
+
+                    <input type="password" placeholder="" />
+                </div>
+                <div>
+                    <input type="submit" value="Sign Up"class = "btn btn-primary" />
+                </div>
+
+            
+
+
+
+<p>
+    Already have an account? <a href="signin.ejs">Login here</a>
+</p>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
